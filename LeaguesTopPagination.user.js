@@ -16,9 +16,8 @@
     if($('#leagueUserList .pager').length > 1)
       $('#leagueUserList .pager').first().remove();
 
-    $('#leagueUserList .league-container')
-      .first()
-      .css('border-top', '1px solid #F0F0F0');
+    if($('#leagueUserList .page-sizer').length >= 1)
+      $('#leagueUserList .league-container').first().css('border-top', '1px solid #F0F0F0');
 
     $('#leagueUserList')
       .prepend($('#leagueUserList .pager').clone())
