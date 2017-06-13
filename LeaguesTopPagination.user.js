@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        Leagues Top Pagination
-// @namespace   http://stackexchange.com/users/2855348/arulkumar
+// @namespace   https://stackexchange.com/users/2855348/arulkumar
 // @author      Arulkumar
-// @description Moving the bottom pagination to the top of the user list in Stack Exchange Leagues
+// @description Clone the bottom pagination and paste to the top of the user list in Stack Exchange Leagues
 // @match       *://stackexchange.com/leagues/*
-// @version     1.0
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 (function ($) {
